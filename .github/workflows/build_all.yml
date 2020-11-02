@@ -45,7 +45,7 @@ jobs:
           bootstrapper*
           installer*
         retention-days: 7
--      
+
   build_windows_fortran:
     runs-on: windows-latest
     timeout-minutes: 10
