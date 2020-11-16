@@ -33,10 +33,8 @@ jobs:
       run: curl.exe --output webimage.exe --url %WINDOWS_HPCKIT_URL% --retry 5 --retry-delay 5
     - name: extract_installer
       run: start /b /wait webimage.exe -s -x -f webimage_extracted --log extract.log
-    - name: change_directory
-      run: cd webimage_extracted
     - name: execute_installer
-      run: bootstrapper.exe -s --action install --components=$WINDOWS_CPP_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
+      run: webimage_extracted/bootstrapper.exe -s --action install --components=$WINDOWS_CPP_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
     - name: build
       run: scripts/build_windows.bat c++
     - name: Saving install logs
@@ -62,10 +60,8 @@ jobs:
       run: curl.exe --output webimage.exe --url %WINDOWS_HPCKIT_URL% --retry 5 --retry-delay 5
     - name: extract_installer
       run: start /b /wait webimage.exe -s -x -f webimage_extracted --log extract.log
-    - name: change_directory
-      run: cd webimage_extracted
     - name: execute_installer
-      run: bootstrapper.exe -s --action install --components=$WINDOWS_FORTRAN_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
+      run: webimage_extracted/bootstrapper.exe -s --action install --components=$WINDOWS_FORTRAN_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
     - name: build
       run: scripts/build_windows.bat fortran
     - name: Saving install logs
@@ -91,10 +87,8 @@ jobs:
       run: curl.exe --output webimage.exe --url %WINDOWS_BASEKIT_URL% --retry 5 --retry-delay 5
     - name: extract_installer
       run: start /b /wait webimage.exe -s -x -f webimage_extracted --log extract.log
-    - name: change_directory
-      run: cd webimage_extracted
     - name: execute_installer
-      run: bootstrapper.exe -s --action install --components=$WINDOWS_DPCPP_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
+      run: webimage_extracted/bootstrapper.exe -s --action install --components=$WINDOWS_DPCPP_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
     - name: build
       run: scripts/build_windows.bat dpc++
     - name: Saving install logs
