@@ -34,7 +34,7 @@ jobs:
     - name: extract_webimage
       run: start /b /wait webimage.exe -s -x -f webimage_extracted --log extract.log
     - name: run_installer
-      run: start /b /wait /high webimage_extracted/bootstrapper.exe -s --action install --components=$WINDOWS_CPP_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
+      run: start /b /wait webimage_extracted/bootstrapper.exe -s --action install --components=$WINDOWS_CPP_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
       shell: bash
     - name: build
       run: scripts\build_windows.bat c++
@@ -62,7 +62,7 @@ jobs:
     - name: extract_webimage
       run: start /b /wait webimage.exe -s -x -f webimage_extracted --log extract.log
     - name: run_installer
-      run: start /b /wait /high webimage_extracted/bootstrapper.exe -s --action install --components=$WINDOWS_FORTRAN_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
+      run: start /b /wait webimage_extracted/bootstrapper.exe -s --action install --components=$WINDOWS_FORTRAN_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
       shell: bash
     - name: build
       run: scripts/build_windows.bat fortran
@@ -90,7 +90,7 @@ jobs:
     - name: extract_webimage
       run: start /b /wait webimage.exe -s -x -f webimage_extracted --log extract.log
     - name: run_installer
-      run: start /b /wait /high webimage_extracted/bootstrapper.exe -s --action install --components=$WINDOWS_DPCPP_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
+      run: start /b /wait webimage_extracted/bootstrapper.exe -s --action install --components=$WINDOWS_DPCPP_COMPONENTS --eula=accept --continue-with-optional-error=yes -p=NEED_VS2017_INTEGRATION=0 -p=NEED_VS2019_INTEGRATION=0 --log-dir .
       shell: bash
     - name: build
       run: scripts\build_windows.bat dpc++
