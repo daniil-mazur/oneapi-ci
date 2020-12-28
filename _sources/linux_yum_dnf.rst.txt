@@ -1,11 +1,10 @@
 linux_yum_dnf
 =============
 ::
-
-    Intel(R) oneAPI repository                      483  B/s | 287  B     00:00    
-    Intel(R) oneAPI repository                       19 kB/s | 3.7 kB     00:00    
-    Intel(R) oneAPI repository                      4.3 MB/s | 3.8 MB     00:00    
-    Last metadata expiration check: 0:00:02 ago on Mon Dec 28 11:45:18 2020.
+    Intel(R) oneAPI repository                      789  B/s | 287  B     00:00    
+    Intel(R) oneAPI repository                       31 kB/s | 3.7 kB     00:00    
+    Intel(R) oneAPI repository                      7.5 MB/s | 3.8 MB     00:00    
+    Last metadata expiration check: 0:00:01 ago on Mon Dec 28 12:11:58 2020.
     Available Packages
     intel-aikit.x86_64                                                                 2021.1.0-935  oneAPI
     intel-aikit-2021.1.0.x86_64                                                        2021.1.0-935  oneAPI
@@ -275,4 +274,5 @@ linux_yum_dnf
     intel-renderkit-runtime-32bit.i686                                                 2021.1.0-627  oneAPI
     intel-renderkit-runtime-32bit-2021.1.0.i686                                        2021.1.0-627  oneAPI
     opae.pac_sign.x86_64                                                               1.0.3-1       oneAPI
+
 

@@ -1,7 +1,6 @@
 linux_apt
 =========
 ::
-
     intel-microcode - Processor microcode firmware for Intel CPUs
     intel-cmt-cat - Intel cache monitoring and allocation technology config tool
     intel-gpu-tools - tools for debugging the Intel graphics driver
@@ -238,4 +237,5 @@ linux_apt
     intel-renderkit-getting-started - Intel® oneAPI Rendering Toolkit
     intel-renderkit-runtime - Intel® oneAPI Rendering Toolkit
     intel-renderkit-runtime-2021.1.0 - Intel® oneAPI Rendering Toolkit
+
 

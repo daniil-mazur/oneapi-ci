@@ -1,7 +1,6 @@
 windows
 =======
 ::
-
     
     Checking system requirements...
     Done.
@@ -17,8 +16,8 @@ windows
     intel.oneapi.win.inspector    2021.1.1-53           false     Intel® Inspector                                               
     
     intel.oneapi.win.cpp-compiler 2021.1.1-191          false     Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 
-::
 
+::
     
     Checking system requirements...
     Done.
@@ -42,8 +41,8 @@ windows
     intel.oneapi.win.rkutil        1.0.0-78           false     Rendering Toolkit Utilities       
     
     intel.oneapi.win.openvkl       0.11.0-87          false     Intel® Open Volume Kernel Library 
-::
 
+::
     
     Checking system requirements...
     Done.
@@ -65,8 +64,8 @@ windows
     intel.oneapi.win.inspector      2021.1.1-53           false     Intel® Inspector                                                 
     
     intel.oneapi.win.itac           2021.1.1-39           false     Intel® Trace Analyzer and Collector                              
-::
 
+::
     
     Checking system requirements...
     Done.
@@ -106,3 +105,4 @@ windows
     intel.oneapi.win.python3         2021.1.1-46           false     Intel® Distribution for Python*                       
     
     intel.oneapi.win.advisor         2021.1.1-53           false     Intel® Advisor                                        
+

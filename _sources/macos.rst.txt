@@ -1,7 +1,6 @@
 macos
 =====
 ::
-
     Checking system requirements...
     Done.
     Wait while the installer is preparing...
@@ -15,4 +14,5 @@ macos
     intel.oneapi.mac.ospray.studio 0.5.0-81           false     Intel® OSPRay Studio              
     intel.oneapi.mac.rkutil        1.0.0-76           false     Rendering Toolkit Utilities       
     intel.oneapi.mac.openvkl       0.11.0-86          false     Intel® Open Volume Kernel Library 
+
 

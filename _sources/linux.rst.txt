@@ -1,7 +1,6 @@
 linux
 =====
 ::
-
     Checking system requirements...
     Done.
     Wait while the installer is preparing...
@@ -14,8 +13,8 @@ linux
     intel.oneapi.lin.inspector              2021.1.1-42           false     Intel® Inspector                                               
     intel.oneapi.lin.dpcpp-cpp-compiler-pro 2021.1.1-189          false     Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 
 
-::
 
+::
     Checking system requirements...
     Done.
     Wait while the installer is preparing...
@@ -26,8 +25,8 @@ linux
     intel.oneapi.lin.dnnl      2021.1.1-55          false     Intel® oneAPI Deep Neural Network Library       
     intel.oneapi.lin.ccl.devel 2021.1.1-54          false     Intel® oneAPI Collective Communications Library 
 
-::
 
+::
     Checking system requirements...
     Done.
     Wait while the installer is preparing...
@@ -42,8 +41,8 @@ linux
     intel.oneapi.lin.rkutil        1.0.0-76           false     Rendering Toolkit Utilities       
     intel.oneapi.lin.openvkl       0.11.0-87          false     Intel® Open Volume Kernel Library 
 
-::
 
+::
     Checking system requirements...
     Done.
     Wait while the installer is preparing...
@@ -67,8 +66,8 @@ linux
     intel.oneapi.lin.ippcp.devel        2021.1.1-54           false     Intel® Integrated Performance Primitives Cryptography 
     intel.oneapi.lin.dpcpp_dbg          10.0.0-2219           false     Intel® Distribution for GDB*                          
 
-::
 
+::
     Checking system requirements...
     Done.
     Wait while the installer is preparing...
@@ -82,8 +81,8 @@ linux
     intel.oneapi.lin.ilit       1.0.0-204            false     Intel(R) Low Precision Optimization Tool 
     intel.oneapi.lin.tensorflow 2.2.0-219            false     Intel® Optimization for TensorFlow*      
 
-::
 
+::
     Checking system requirements...
     Done.
     Wait while the installer is preparing...
@@ -98,12 +97,12 @@ linux
     intel.oneapi.lin.clck                   2021.1.1-68           false     Intel® Cluster Checker                                           
     intel.oneapi.lin.itac                   2021.1.1-42           false     Intel® Trace Analyzer and Collector                              
 
-::
 
-    Intel(R) oneAPI repository                      483  B/s | 287  B     00:00    
-    Intel(R) oneAPI repository                       19 kB/s | 3.7 kB     00:00    
-    Intel(R) oneAPI repository                      4.3 MB/s | 3.8 MB     00:00    
-    Last metadata expiration check: 0:00:02 ago on Mon Dec 28 11:45:18 2020.
+::
+    Intel(R) oneAPI repository                      789  B/s | 287  B     00:00    
+    Intel(R) oneAPI repository                       31 kB/s | 3.7 kB     00:00    
+    Intel(R) oneAPI repository                      7.5 MB/s | 3.8 MB     00:00    
+    Last metadata expiration check: 0:00:01 ago on Mon Dec 28 12:11:58 2020.
     Available Packages
     intel-aikit.x86_64                                                                 2021.1.0-935  oneAPI
     intel-aikit-2021.1.0.x86_64                                                        2021.1.0-935  oneAPI
@@ -374,8 +373,8 @@ linux
     intel-renderkit-runtime-32bit-2021.1.0.i686                                        2021.1.0-627  oneAPI
     opae.pac_sign.x86_64                                                               1.0.3-1       oneAPI
 
-::
 
+::
     intel-microcode - Processor microcode firmware for Intel CPUs
     intel-cmt-cat - Intel cache monitoring and allocation technology config tool
     intel-gpu-tools - tools for debugging the Intel graphics driver
@@ -612,4 +611,5 @@ linux
     intel-renderkit-getting-started - Intel® oneAPI Rendering Toolkit
     intel-renderkit-runtime - Intel® oneAPI Rendering Toolkit
     intel-renderkit-runtime-2021.1.0 - Intel® oneAPI Rendering Toolkit
+
 
