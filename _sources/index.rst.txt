@@ -1,6 +1,4 @@
 =====================================
-Components available for installation
-=====================================
 
 Windows, Web installer
 ======================
