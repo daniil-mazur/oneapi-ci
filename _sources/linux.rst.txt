@@ -1,0 +1,615 @@
+linux
+=====
+::
+
+    Checking system requirements...
+    Done.
+    Wait while the installer is preparing...
+    Done.
+    Launching the installer...
+    ID                                      Version      Language Installed Name                                                           
+    =======================================================================================================================================
+    intel.oneapi.lin.eclipse-ide            2021.1.1-52           false     Eclipse* IDE                                                   
+    intel.oneapi.lin.eclipse_iot_plugin     2021.1.1-69           false     IoT Plugins for Eclipse                                        
+    intel.oneapi.lin.inspector              2021.1.1-42           false     Intel® Inspector                                               
+    intel.oneapi.lin.dpcpp-cpp-compiler-pro 2021.1.1-189          false     Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 
+
+::
+
+    Checking system requirements...
+    Done.
+    Wait while the installer is preparing...
+    Done.
+    Launching the installer...
+    ID                         Version     Language Installed Name                                            
+    ==========================================================================================================
+    intel.oneapi.lin.dnnl      2021.1.1-55          false     Intel® oneAPI Deep Neural Network Library       
+    intel.oneapi.lin.ccl.devel 2021.1.1-54          false     Intel® oneAPI Collective Communications Library 
+
+::
+
+    Checking system requirements...
+    Done.
+    Wait while the installer is preparing...
+    Done.
+    Launching the installer...
+    ID                             Version   Language Installed Name                              
+    ==============================================================================================
+    intel.oneapi.lin.embree        3.12.0-91          false     Intel® Embree                     
+    intel.oneapi.lin.oidn          1.2.4-116          false     Intel® Open Image Denoise         
+    intel.oneapi.lin.ospray        2.4.0-55           false     Intel® OSPRay                     
+    intel.oneapi.lin.ospray.studio 0.5.0-84           false     Intel® OSPRay Studio              
+    intel.oneapi.lin.rkutil        1.0.0-76           false     Rendering Toolkit Utilities       
+    intel.oneapi.lin.openvkl       0.11.0-87          false     Intel® Open Volume Kernel Library 
+
+::
+
+    Checking system requirements...
+    Done.
+    Wait while the installer is preparing...
+    Done.
+    Launching the installer...
+    ID                                  Version      Language Installed Name                                                  
+    ==========================================================================================================================
+    intel.oneapi.lin.tbb.devel          2021.1.1-119          false     Intel® oneAPI Threading Building Blocks               
+    intel.oneapi.lin.dpcpp-cpp-compiler 2021.1.1-189          false     Intel® oneAPI DPC++/C++ Compiler                      
+    intel.oneapi.lin.dpcpp-library      2021.1.1-189          false     Intel® oneAPI DPC++ Library                           
+    intel.oneapi.lin.mkl.devel          2021.1.1-52           false     Intel® oneAPI Math Kernel Library                     
+    intel.oneapi.lin.ipp.devel          2021.1.1-47           false     Intel® Integrated Performance Primitives              
+    intel.oneapi.lin.dal.devel          2021.1.1-79           false     Intel® oneAPI Data Analytics Library                  
+    intel.oneapi.lin.advisor            2021.1.1-43           false     Intel® Advisor                                        
+    intel.oneapi.lin.dnnl               2021.1.1-55           false     Intel® oneAPI Deep Neural Network Library             
+    intel.oneapi.lin.ccl.devel          2021.1.1-54           false     Intel® oneAPI Collective Communications Library       
+    intel.oneapi.lin.vtune              2021.1.1-61           false     Intel® VTune(TM) Profiler                             
+    intel.oneapi.lin.dpcpp-ct           2021.1.1-59           false     Intel® DPC++ Compatibility Tool                       
+    intel.oneapi.lin.python3            2021.1.1-44           false     Intel® Distribution for Python*                       
+    intel.oneapi.lin.vpl                2021.1.1-66           false     Intel® oneAPI Video Processing Library                
+    intel.oneapi.lin.ippcp.devel        2021.1.1-54           false     Intel® Integrated Performance Primitives Cryptography 
+    intel.oneapi.lin.dpcpp_dbg          10.0.0-2219           false     Intel® Distribution for GDB*                          
+
+::
+
+    Checking system requirements...
+    Done.
+    Wait while the installer is preparing...
+    Done.
+    Launching the installer...
+    ID                          Version     Language Installed Name                                     
+    ====================================================================================================
+    intel.oneapi.lin.python3    2021.1.1-44          false     Intel® Distribution for Python*          
+    intel.oneapi.lin.mz         1.8.0-204            false     Model Zoo                                
+    intel.oneapi.lin.pytorch    1.5.0-726            false     PyTorch*                                 
+    intel.oneapi.lin.ilit       1.0.0-204            false     Intel(R) Low Precision Optimization Tool 
+    intel.oneapi.lin.tensorflow 2.2.0-219            false     Intel® Optimization for TensorFlow*      
+
+::
+
+    Checking system requirements...
+    Done.
+    Wait while the installer is preparing...
+    Done.
+    Launching the installer...
+    ID                                      Version      Language Installed Name                                                             
+    =========================================================================================================================================
+    intel.oneapi.lin.mpi.devel              2021.1.1-76           false     Intel® MPI Library                                               
+    intel.oneapi.lin.inspector              2021.1.1-42           false     Intel® Inspector                                                 
+    intel.oneapi.lin.dpcpp-cpp-compiler-pro 2021.1.1-189          false     Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic   
+    intel.oneapi.lin.ifort-compiler         2021.1.1-189          false     Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic 
+    intel.oneapi.lin.clck                   2021.1.1-68           false     Intel® Cluster Checker                                           
+    intel.oneapi.lin.itac                   2021.1.1-42           false     Intel® Trace Analyzer and Collector                              
+
+::
+
+    Intel(R) oneAPI repository                      483  B/s | 287  B     00:00    
+    Intel(R) oneAPI repository                       19 kB/s | 3.7 kB     00:00    
+    Intel(R) oneAPI repository                      4.3 MB/s | 3.8 MB     00:00    
+    Last metadata expiration check: 0:00:02 ago on Mon Dec 28 11:45:18 2020.
+    Available Packages
+    intel-aikit.x86_64                                                                 2021.1.0-935  oneAPI
+    intel-aikit-2021.1.0.x86_64                                                        2021.1.0-935  oneAPI
+    intel-aikit-32bit.i686                                                             2021.1.0-935  oneAPI
+    intel-aikit-32bit-2021.1.0.i686                                                    2021.1.0-935  oneAPI
+    intel-aikit-getting-started.noarch                                                 2021.1.0-935  oneAPI
+    intel-aikit-runtime.x86_64                                                         2021.1.0-935  oneAPI
+    intel-aikit-runtime-2021.1.0.x86_64                                                2021.1.0-935  oneAPI
+    intel-aikit-runtime-32bit.i686                                                     2021.1.0-935  oneAPI
+    intel-aikit-runtime-32bit-2021.1.0.i686                                            2021.1.0-935  oneAPI
+    intel-basekit.x86_64                                                               2021.1.0-2659 oneAPI
+    intel-basekit-2021.1.0.x86_64                                                      2021.1.0-2659 oneAPI
+    intel-basekit-32bit.i686                                                           2021.1.0-2659 oneAPI
+    intel-basekit-32bit-2021.1.0.i686                                                  2021.1.0-2659 oneAPI
+    intel-basekit-getting-started.noarch                                               2021.1.0-2659 oneAPI
+    intel-basekit-runtime.x86_64                                                       2021.1.0-2659 oneAPI
+    intel-basekit-runtime-2021.1.0.x86_64                                              2021.1.0-2659 oneAPI
+    intel-basekit-runtime-32bit.i686                                                   2021.1.0-2659 oneAPI
+    intel-basekit-runtime-32bit-2021.1.0.i686                                          2021.1.0-2659 oneAPI
+    intel-dlfdkit.x86_64                                                               2021.1.0-1920 oneAPI
+    intel-dlfdkit-2021.1.0.x86_64                                                      2021.1.0-1920 oneAPI
+    intel-dlfdkit-32bit.i686                                                           2021.1.0-1920 oneAPI
+    intel-dlfdkit-32bit-2021.1.0.i686                                                  2021.1.0-1920 oneAPI
+    intel-dlfdkit-getting-started.noarch                                               2021.1.0-1920 oneAPI
+    intel-dlfdkit-runtime.x86_64                                                       2021.1.0-1920 oneAPI
+    intel-dlfdkit-runtime-2021.1.0.x86_64                                              2021.1.0-1920 oneAPI
+    intel-dlfdkit-runtime-32bit.i686                                                   2021.1.0-1920 oneAPI
+    intel-dlfdkit-runtime-32bit-2021.1.0.i686                                          2021.1.0-1920 oneAPI
+    intel-hpckit.x86_64                                                                2021.1.0-2684 oneAPI
+    intel-hpckit-2021.1.0.x86_64                                                       2021.1.0-2684 oneAPI
+    intel-hpckit-32bit.i686                                                            2021.1.0-2684 oneAPI
+    intel-hpckit-32bit-2021.1.0.i686                                                   2021.1.0-2684 oneAPI
+    intel-hpckit-getting-started.noarch                                                2021.1.0-2684 oneAPI
+    intel-hpckit-runtime.x86_64                                                        2021.1.0-2684 oneAPI
+    intel-hpckit-runtime-2021.1.0.x86_64                                               2021.1.0-2684 oneAPI
+    intel-hpckit-runtime-32bit.i686                                                    2021.1.0-2684 oneAPI
+    intel-hpckit-runtime-32bit-2021.1.0.i686                                           2021.1.0-2684 oneAPI
+    intel-iotkit.x86_64                                                                2021.1.0-2658 oneAPI
+    intel-iotkit-2021.1.0.x86_64                                                       2021.1.0-2658 oneAPI
+    intel-iotkit-32bit.i686                                                            2021.1.0-2658 oneAPI
+    intel-iotkit-32bit-2021.1.0.i686                                                   2021.1.0-2658 oneAPI
+    intel-iotkit-getting-started.noarch                                                2021.1.0-2658 oneAPI
+    intel-iotkit-runtime.x86_64                                                        2021.1.0-2658 oneAPI
+    intel-iotkit-runtime-2021.1.0.x86_64                                               2021.1.0-2658 oneAPI
+    intel-iotkit-runtime-32bit.i686                                                    2021.1.0-2658 oneAPI
+    intel-iotkit-runtime-32bit-2021.1.0.i686                                           2021.1.0-2658 oneAPI
+    intel-oneapi-advisor.x86_64                                                        2021.1.1-43   oneAPI
+    intel-oneapi-ccl.x86_64                                                            2021.1.1-54   oneAPI
+    intel-oneapi-ccl-2021.1.1.x86_64                                                   2021.1.1-54   oneAPI
+    intel-oneapi-ccl-devel.x86_64                                                      2021.1.1-54   oneAPI
+    intel-oneapi-ccl-devel-2021.1.1.x86_64                                             2021.1.1-54   oneAPI
+    intel-oneapi-clck.x86_64                                                           2021.1.1-68   oneAPI
+    intel-oneapi-clck-2021.1.1.x86_64                                                  2021.1.1-68   oneAPI
+    intel-oneapi-common-licensing.noarch                                               2021.1.1-60   oneAPI
+    intel-oneapi-common-licensing-2021.1.1.noarch                                      2021.1.1-60   oneAPI
+    intel-oneapi-common-vars.noarch                                                    2021.1.1-60   oneAPI
+    intel-oneapi-compiler-cpp-eclipse-cfg.noarch                                       2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp.x86_64                                             2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-2021.1.1.x86_64                                    2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-2021.1.2.x86_64                                    2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic.x86_64                             2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-2021.1.1.x86_64                    2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-2021.1.2.x86_64                    2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-32bit.x86_64                       2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-32bit-2021.1.1.x86_64              2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-32bit-2021.1.2.x86_64              2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-common-2021.1.1.noarch             2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-common-2021.1.2.noarch             2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-runtime-2021.1.1.x86_64            2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-runtime-2021.1.2.x86_64            2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-runtime-32bit.i686                 2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-runtime-32bit-2021.1.1.i686        2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-runtime-32bit-2021.1.2.i686        2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2021.1.1.x86_64     2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2021.1.2.x86_64     2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-32bit-2021.1.1.i686 2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-32bit-2021.1.2.i686 2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-common-2021.1.1.noarch                             2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-common-2021.1.2.noarch                             2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-runtime.x86_64                                     2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-runtime-2021.1.1.x86_64                            2021.1.1-189  oneAPI
+    intel-oneapi-compiler-dpcpp-cpp-runtime-2021.1.2.x86_64                            2021.1.2-266  oneAPI
+    intel-oneapi-compiler-dpcpp-eclipse-cfg.noarch                                     2021.1.2-266  oneAPI
+    intel-oneapi-compiler-fortran.x86_64                                               2021.1.2-266  oneAPI
+    intel-oneapi-compiler-fortran-2021.1.1.x86_64                                      2021.1.1-189  oneAPI
+    intel-oneapi-compiler-fortran-2021.1.2.x86_64                                      2021.1.2-266  oneAPI
+    intel-oneapi-compiler-fortran-32bit.x86_64                                         2021.1.2-266  oneAPI
+    intel-oneapi-compiler-fortran-32bit-2021.1.1.x86_64                                2021.1.1-189  oneAPI
+    intel-oneapi-compiler-fortran-32bit-2021.1.2.x86_64                                2021.1.2-266  oneAPI
+    intel-oneapi-compiler-fortran-common-2021.1.1.noarch                               2021.1.1-189  oneAPI
+    intel-oneapi-compiler-fortran-common-2021.1.2.noarch                               2021.1.2-266  oneAPI
+    intel-oneapi-compiler-fortran-runtime.x86_64                                       2021.1.2-266  oneAPI
+    intel-oneapi-compiler-fortran-runtime-2021.1.1.x86_64                              2021.1.1-189  oneAPI
+    intel-oneapi-compiler-fortran-runtime-2021.1.2.x86_64                              2021.1.2-266  oneAPI
+    intel-oneapi-compiler-fortran-runtime-32bit.i686                                   2021.1.2-266  oneAPI
+    intel-oneapi-compiler-fortran-runtime-32bit-2021.1.1.i686                          2021.1.1-189  oneAPI
+    intel-oneapi-compiler-fortran-runtime-32bit-2021.1.2.i686                          2021.1.2-266  oneAPI
+    intel-oneapi-compiler-shared-2021.1.1.x86_64                                       2021.1.1-189  oneAPI
+    intel-oneapi-compiler-shared-2021.1.2.x86_64                                       2021.1.2-266  oneAPI
+    intel-oneapi-compiler-shared-32bit-2021.1.1.i686                                   2021.1.1-189  oneAPI
+    intel-oneapi-compiler-shared-32bit-2021.1.2.i686                                   2021.1.2-266  oneAPI
+    intel-oneapi-compiler-shared-common-2021.1.1.noarch                                2021.1.1-189  oneAPI
+    intel-oneapi-compiler-shared-common-2021.1.2.noarch                                2021.1.2-266  oneAPI
+    intel-oneapi-compiler-shared-common-runtime-2021.1.1.noarch                        2021.1.1-189  oneAPI
+    intel-oneapi-compiler-shared-common-runtime-2021.1.2.noarch                        2021.1.2-266  oneAPI
+    intel-oneapi-compiler-shared-runtime-2021.1.1.x86_64                               2021.1.1-189  oneAPI
+    intel-oneapi-compiler-shared-runtime-2021.1.2.x86_64                               2021.1.2-266  oneAPI
+    intel-oneapi-compiler-shared-runtime-32bit-2021.1.1.i686                           2021.1.1-189  oneAPI
+    intel-oneapi-compiler-shared-runtime-32bit-2021.1.2.i686                           2021.1.2-266  oneAPI
+    intel-oneapi-condaindex.x86_64                                                     2021.1.1-58   oneAPI
+    intel-oneapi-daal.x86_64                                                           2021.1.1-79   oneAPI
+    intel-oneapi-daal-devel.x86_64                                                     2021.1.1-79   oneAPI
+    intel-oneapi-dal.x86_64                                                            2021.1.1-79   oneAPI
+    intel-oneapi-dal-2021.1.1.x86_64                                                   2021.1.1-79   oneAPI
+    intel-oneapi-dal-common-2021.1.1.noarch                                            2021.1.1-79   oneAPI
+    intel-oneapi-dal-common-devel-2021.1.1.noarch                                      2021.1.1-79   oneAPI
+    intel-oneapi-dal-devel.x86_64                                                      2021.1.1-79   oneAPI
+    intel-oneapi-dal-devel-2021.1.1.x86_64                                             2021.1.1-79   oneAPI
+    intel-oneapi-dev-utilities.x86_64                                                  2021.1.1-197  oneAPI
+    intel-oneapi-dev-utilities-2021.1.1.x86_64                                         2021.1.1-197  oneAPI
+    intel-oneapi-dev-utilities-eclipse-cfg.noarch                                      2021.1.1-197  oneAPI
+    intel-oneapi-dnnl.x86_64                                                           2021.1.1-55   oneAPI
+    intel-oneapi-dnnl-devel.x86_64                                                     2021.1.1-55   oneAPI
+    intel-oneapi-dpcpp-cpp-2021.1.1.x86_64                                             2021.1.1-189  oneAPI
+    intel-oneapi-dpcpp-cpp-2021.1.2.x86_64                                             2021.1.2-266  oneAPI
+    intel-oneapi-dpcpp-ct.x86_64                                                       2021.1.1-59   oneAPI
+    intel-oneapi-dpcpp-ct-2021.1.1.x86_64                                              2021.1.1-59   oneAPI
+    intel-oneapi-dpcpp-ct-eclipse-cfg.noarch                                           2021.1.1-59   oneAPI
+    intel-oneapi-dpcpp-debugger.x86_64                                                 10.0.0-2219   oneAPI
+    intel-oneapi-dpcpp-debugger-10.0.0.x86_64                                          10.0.0-2219   oneAPI
+    intel-oneapi-dpcpp-debugger-eclipse-cfg.noarch                                     10.0.0-2219   oneAPI
+    intel-oneapi-eclipse-ide.x86_64                                                    2021.1.1-52   oneAPI
+    intel-oneapi-eclipse-ide-2021.1.1.x86_64                                           2021.1.1-52   oneAPI
+    intel-oneapi-embree.x86_64                                                         3.12.0-91     oneAPI
+    intel-oneapi-embree-3.12.0.x86_64                                                  3.12.0-91     oneAPI
+    intel-oneapi-ilit.x86_64                                                           1.0.0-204     oneAPI
+    intel-oneapi-inspector.x86_64                                                      2021.1.1-42   oneAPI
+    intel-oneapi-intelfpgadpcpp-a10gx-s10sx.x86_64                                     2021.1.1-1    oneAPI
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4.x86_64                    2021.1.1-1    oneAPI
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4-part2.x86_64              2021.1.1-1    oneAPI
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2.x86_64                    2021.1.1-1    oneAPI
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2-part2.x86_64              2021.1.1-1    oneAPI
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3.x86_64                    2021.1.1-1    oneAPI
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3-part2.x86_64              2021.1.1-1    oneAPI
+    intel-oneapi-iot-eclipse-plugins.noarch                                            2021.1.1-69   oneAPI
+    intel-oneapi-iot-eclipse-plugins-2021.1.1.noarch                                   2021.1.1-69   oneAPI
+    intel-oneapi-iot-eclipse-plugins-cfg.noarch                                        2021.1.1-69   oneAPI
+    intel-oneapi-ipp.x86_64                                                            2021.1.1-47   oneAPI
+    intel-oneapi-ipp-2021.1.1.x86_64                                                   2021.1.1-47   oneAPI
+    intel-oneapi-ipp-32bit.i686                                                        2021.1.1-47   oneAPI
+    intel-oneapi-ipp-32bit-2021.1.1.i686                                               2021.1.1-47   oneAPI
+    intel-oneapi-ipp-common-2021.1.1.noarch                                            2021.1.1-47   oneAPI
+    intel-oneapi-ipp-common-devel-2021.1.1.noarch                                      2021.1.1-47   oneAPI
+    intel-oneapi-ipp-devel.x86_64                                                      2021.1.1-47   oneAPI
+    intel-oneapi-ipp-devel-2021.1.1.x86_64                                             2021.1.1-47   oneAPI
+    intel-oneapi-ipp-devel-32bit.x86_64                                                2021.1.1-47   oneAPI
+    intel-oneapi-ipp-devel-32bit-2021.1.1.x86_64                                       2021.1.1-47   oneAPI
+    intel-oneapi-ippcp.x86_64                                                          2021.1.1-54   oneAPI
+    intel-oneapi-ippcp-2021.1.1.x86_64                                                 2021.1.1-54   oneAPI
+    intel-oneapi-ippcp-32bit.i686                                                      2021.1.1-54   oneAPI
+    intel-oneapi-ippcp-32bit-2021.1.1.i686                                             2021.1.1-54   oneAPI
+    intel-oneapi-ippcp-common-2021.1.1.noarch                                          2021.1.1-54   oneAPI
+    intel-oneapi-ippcp-common-devel-2021.1.1.noarch                                    2021.1.1-54   oneAPI
+    intel-oneapi-ippcp-devel.x86_64                                                    2021.1.1-54   oneAPI
+    intel-oneapi-ippcp-devel-2021.1.1.x86_64                                           2021.1.1-54   oneAPI
+    intel-oneapi-ippcp-devel-32bit.x86_64                                              2021.1.1-54   oneAPI
+    intel-oneapi-ippcp-devel-32bit-2021.1.1.x86_64                                     2021.1.1-54   oneAPI
+    intel-oneapi-itac.x86_64                                                           2021.1.1-42   oneAPI
+    intel-oneapi-itac-2021.1.1.x86_64                                                  2021.1.1-42   oneAPI
+    intel-oneapi-libdpstd-devel.x86_64                                                 2021.1.2-266  oneAPI
+    intel-oneapi-libdpstd-devel-2021.1.1.x86_64                                        2021.1.1-189  oneAPI
+    intel-oneapi-libdpstd-devel-2021.1.2.x86_64                                        2021.1.2-266  oneAPI
+    intel-oneapi-mkl.x86_64                                                            2021.1.1-52   oneAPI
+    intel-oneapi-mkl-2021.1.1.x86_64                                                   2021.1.1-52   oneAPI
+    intel-oneapi-mkl-32bit.i686                                                        2021.1.1-52   oneAPI
+    intel-oneapi-mkl-32bit-2021.1.1.i686                                               2021.1.1-52   oneAPI
+    intel-oneapi-mkl-common-2021.1.1.noarch                                            2021.1.1-52   oneAPI
+    intel-oneapi-mkl-common-devel-2021.1.1.noarch                                      2021.1.1-52   oneAPI
+    intel-oneapi-mkl-devel.x86_64                                                      2021.1.1-52   oneAPI
+    intel-oneapi-mkl-devel-2021.1.1.x86_64                                             2021.1.1-52   oneAPI
+    intel-oneapi-mkl-devel-32bit.x86_64                                                2021.1.1-52   oneAPI
+    intel-oneapi-mkl-devel-32bit-2021.1.1.x86_64                                       2021.1.1-52   oneAPI
+    intel-oneapi-model-zoo.x86_64                                                      1.8.0-204     oneAPI
+    intel-oneapi-mpi.x86_64                                                            2021.1.1-76   oneAPI
+    intel-oneapi-mpi-2021.1.1.x86_64                                                   2021.1.1-76   oneAPI
+    intel-oneapi-mpi-devel.x86_64                                                      2021.1.1-76   oneAPI
+    intel-oneapi-mpi-devel-2021.1.1.x86_64                                             2021.1.1-76   oneAPI
+    intel-oneapi-oidn.x86_64                                                           1.2.4-116     oneAPI
+    intel-oneapi-oidn-1.2.4.x86_64                                                     1.2.4-116     oneAPI
+    intel-oneapi-onevpl.x86_64                                                         2021.1.1-66   oneAPI
+    intel-oneapi-onevpl-2021.1.1.x86_64                                                2021.1.1-66   oneAPI
+    intel-oneapi-onevpl-devel.x86_64                                                   2021.1.1-66   oneAPI
+    intel-oneapi-onevpl-devel-2021.1.1.x86_64                                          2021.1.1-66   oneAPI
+    intel-oneapi-openmp.x86_64                                                         2021.1.2-266  oneAPI
+    intel-oneapi-openmp-2021.1.1.x86_64                                                2021.1.1-189  oneAPI
+    intel-oneapi-openmp-2021.1.2.x86_64                                                2021.1.2-266  oneAPI
+    intel-oneapi-openmp-32bit.i686                                                     2021.1.2-266  oneAPI
+    intel-oneapi-openmp-32bit-2021.1.1.i686                                            2021.1.1-189  oneAPI
+    intel-oneapi-openmp-32bit-2021.1.2.i686                                            2021.1.2-266  oneAPI
+    intel-oneapi-openmp-common-2021.1.1.noarch                                         2021.1.1-189  oneAPI
+    intel-oneapi-openmp-common-2021.1.2.noarch                                         2021.1.2-266  oneAPI
+    intel-oneapi-openvkl.x86_64                                                        0.11.0-87     oneAPI
+    intel-oneapi-openvkl-0.11.0.x86_64                                                 0.11.0-87     oneAPI
+    intel-oneapi-ospray.x86_64                                                         2.4.0-55      oneAPI
+    intel-oneapi-ospray-2.4.0.x86_64                                                   2.4.0-55      oneAPI
+    intel-oneapi-ospray-studio.x86_64                                                  0.5.0-84      oneAPI
+    intel-oneapi-ospray-studio-0.5.0.x86_64                                            0.5.0-84      oneAPI
+    intel-oneapi-python.x86_64                                                         2021.1.1-44   oneAPI
+    intel-oneapi-pytorch.x86_64                                                        1.5.0-726     oneAPI
+    intel-oneapi-rkcommon.x86_64                                                       1.5.0-118     oneAPI
+    intel-oneapi-rkcommon-1.5.0.x86_64                                                 1.5.0-118     oneAPI
+    intel-oneapi-rkutil.x86_64                                                         1.0.0-76      oneAPI
+    intel-oneapi-rkutil-1.0.0.x86_64                                                   1.0.0-76      oneAPI
+    intel-oneapi-runtime-ccl.x86_64                                                    2021.1.1-54   oneAPI
+    intel-oneapi-runtime-compilers.x86_64                                              2021.1.2-266  oneAPI
+    intel-oneapi-runtime-compilers-32bit.i686                                          2021.1.2-266  oneAPI
+    intel-oneapi-runtime-compilers-common.noarch                                       2021.1.2-266  oneAPI
+    intel-oneapi-runtime-dal.x86_64                                                    2021.1.1-79   oneAPI
+    intel-oneapi-runtime-dnnl.x86_64                                                   2021.1.1-55   oneAPI
+    intel-oneapi-runtime-dpcpp-cpp.x86_64                                              2021.1.2-266  oneAPI
+    intel-oneapi-runtime-dpcpp-cpp-32bit.i686                                          2021.1.2-266  oneAPI
+    intel-oneapi-runtime-dpcpp-cpp-common.noarch                                       2021.1.2-266  oneAPI
+    intel-oneapi-runtime-dpcpp-library.x86_64                                          2021.1.2-266  oneAPI
+    intel-oneapi-runtime-dpcpp-library-32bit.i686                                      2021.1.2-266  oneAPI
+    intel-oneapi-runtime-fortran.x86_64                                                2021.1.2-266  oneAPI
+    intel-oneapi-runtime-fortran-32bit.i686                                            2021.1.2-266  oneAPI
+    intel-oneapi-runtime-fortran-common.noarch                                         2021.1.2-266  oneAPI
+    intel-oneapi-runtime-ipp.x86_64                                                    2021.1.1-47   oneAPI
+    intel-oneapi-runtime-ipp-32bit.i686                                                2021.1.1-47   oneAPI
+    intel-oneapi-runtime-ipp-common.noarch                                             2021.1.1-47   oneAPI
+    intel-oneapi-runtime-ipp-crypto.x86_64                                             2021.1.1-54   oneAPI
+    intel-oneapi-runtime-ipp-crypto-32bit.i686                                         2021.1.1-54   oneAPI
+    intel-oneapi-runtime-ipp-crypto-common.noarch                                      2021.1.1-54   oneAPI
+    intel-oneapi-runtime-libs.x86_64                                                   2021.1.1-26   oneAPI
+    intel-oneapi-runtime-libs-32bit.i686                                               2021.1.1-26   oneAPI
+    intel-oneapi-runtime-mkl.x86_64                                                    2021.1.1-52   oneAPI
+    intel-oneapi-runtime-mkl-32bit.i686                                                2021.1.1-52   oneAPI
+    intel-oneapi-runtime-mkl-common.noarch                                             2021.1.1-52   oneAPI
+    intel-oneapi-runtime-mpi.x86_64                                                    2021.1.1-76   oneAPI
+    intel-oneapi-runtime-opencl.x86_64                                                 2021.1.2-266  oneAPI
+    intel-oneapi-runtime-openmp.x86_64                                                 2021.1.2-266  oneAPI
+    intel-oneapi-runtime-openmp-32bit.i686                                             2021.1.2-266  oneAPI
+    intel-oneapi-runtime-openmp-common.noarch                                          2021.1.2-266  oneAPI
+    intel-oneapi-runtime-tbb.x86_64                                                    2021.1.1-119  oneAPI
+    intel-oneapi-runtime-tbb-32bit.i686                                                2021.1.1-119  oneAPI
+    intel-oneapi-runtime-tbb-common.noarch                                             2021.1.1-119  oneAPI
+    intel-oneapi-runtime-vpl.x86_64                                                    2021.1.1-66   oneAPI
+    intel-oneapi-tbb.x86_64                                                            2021.1.1-119  oneAPI
+    intel-oneapi-tbb-2021.1.1.x86_64                                                   2021.1.1-119  oneAPI
+    intel-oneapi-tbb-32bit.i686                                                        2021.1.1-119  oneAPI
+    intel-oneapi-tbb-32bit-2021.1.1.i686                                               2021.1.1-119  oneAPI
+    intel-oneapi-tbb-common-2021.1.1.noarch                                            2021.1.1-119  oneAPI
+    intel-oneapi-tbb-common-devel-2021.1.1.noarch                                      2021.1.1-119  oneAPI
+    intel-oneapi-tbb-devel.x86_64                                                      2021.1.1-119  oneAPI
+    intel-oneapi-tbb-devel-2021.1.1.x86_64                                             2021.1.1-119  oneAPI
+    intel-oneapi-tbb-devel-32bit.x86_64                                                2021.1.1-119  oneAPI
+    intel-oneapi-tbb-devel-32bit-2021.1.1.x86_64                                       2021.1.1-119  oneAPI
+    intel-oneapi-tensorflow.x86_64                                                     2.2.0-219     oneAPI
+    intel-oneapi-vtune.x86_64                                                          2021.1.1-61   oneAPI
+    intel-renderkit.x86_64                                                             2021.1.0-627  oneAPI
+    intel-renderkit-2021.1.0.x86_64                                                    2021.1.0-627  oneAPI
+    intel-renderkit-32bit.i686                                                         2021.1.0-627  oneAPI
+    intel-renderkit-32bit-2021.1.0.i686                                                2021.1.0-627  oneAPI
+    intel-renderkit-getting-started.noarch                                             2021.1.0-627  oneAPI
+    intel-renderkit-runtime.x86_64                                                     2021.1.0-627  oneAPI
+    intel-renderkit-runtime-2021.1.0.x86_64                                            2021.1.0-627  oneAPI
+    intel-renderkit-runtime-32bit.i686                                                 2021.1.0-627  oneAPI
+    intel-renderkit-runtime-32bit-2021.1.0.i686                                        2021.1.0-627  oneAPI
+    opae.pac_sign.x86_64                                                               1.0.3-1       oneAPI
+
+::
+
+    intel-microcode - Processor microcode firmware for Intel CPUs
+    intel-cmt-cat - Intel cache monitoring and allocation technology config tool
+    intel-gpu-tools - tools for debugging the Intel graphics driver
+    intel-media-va-driver - VAAPI driver for the Intel GEN8+ Graphics family
+    intel-opencl-icd - Intel graphics compute runtime for OpenCL
+    rng-tools - Daemon to use a Hardware TRNG
+    rng-tools-debian - daemon to use a Hardware TRNG (classic version)
+    intel-media-va-driver-non-free - VAAPI driver for the Intel GEN8+ Graphics family
+    intel-mkl - Intel® Math Kernel Library (Intel® MKL)
+    intel-mkl-cluster - Intel® Math Kernel Library (Intel® MKL) (Cluster)
+    intel-mkl-doc - Intel® Math Kernel Library (Intel® MKL) (Doc)
+    intel-mkl-full - Intel® Math Kernel Library (Intel® MKL) (Full)
+    intel-aikit - Intel® AI Analytics Toolkit
+    intel-aikit-2021.1.0 - Intel® AI Analytics Toolkit
+    intel-aikit-getting-started - Intel® AI Analytics Toolkit
+    intel-aikit-runtime - Intel® AI Analytics Toolkit
+    intel-aikit-runtime-2021.1.0 - Intel® AI Analytics Toolkit
+    intel-basekit - Intel® oneAPI Base Toolkit
+    intel-basekit-2021.1.0 - Intel® oneAPI Base Toolkit
+    intel-basekit-getting-started - Intel® oneAPI Base Toolkit
+    intel-basekit-runtime - Intel® oneAPI Base Toolkit
+    intel-basekit-runtime-2021.1.0 - Intel® oneAPI Base Toolkit
+    intel-dlfdkit - Intel® oneAPI DL Framework Developer Toolkit
+    intel-dlfdkit-2021.1.0 - Intel® oneAPI DL Framework Developer Toolkit
+    intel-dlfdkit-getting-started - Intel® oneAPI DL Framework Developer Toolkit
+    intel-dlfdkit-runtime - Intel® oneAPI DL Framework Developer Toolkit
+    intel-dlfdkit-runtime-2021.1.0 - Intel® oneAPI DL Framework Developer Toolkit
+    intel-hpckit - Intel® oneAPI HPC Toolkit
+    intel-hpckit-2021.1.0 - Intel® oneAPI HPC Toolkit
+    intel-hpckit-getting-started - Intel® oneAPI HPC Toolkit
+    intel-hpckit-runtime - Intel® oneAPI HPC Toolkit
+    intel-hpckit-runtime-2021.1.0 - Intel® oneAPI HPC Toolkit
+    intel-iotkit - Intel® oneAPI IoT Toolkit
+    intel-iotkit-2021.1.0 - Intel® oneAPI IoT Toolkit
+    intel-iotkit-getting-started - Intel® oneAPI IoT Toolkit
+    intel-iotkit-runtime - Intel® oneAPI IoT Toolkit
+    intel-iotkit-runtime-2021.1.0 - Intel® oneAPI IoT Toolkit
+    intel-oneapi-advisor - Intel® Advisor
+    intel-oneapi-ccl - Intel® oneAPI Collective Communications Library Runtime Environment
+    intel-oneapi-ccl-2021.1.1 - Intel® oneAPI Collective Communications Library Runtime Environment
+    intel-oneapi-ccl-devel - Intel® oneAPI Collective Communications Library
+    intel-oneapi-ccl-devel-2021.1.1 - Intel® oneAPI Collective Communications Library
+    intel-oneapi-clck - Intel® Cluster Checker
+    intel-oneapi-clck-2021.1.1 - Intel® Cluster Checker
+    intel-oneapi-common-licensing - oneAPI Common License
+    intel-oneapi-common-licensing-2021.1.1 - oneAPI Common License
+    intel-oneapi-common-vars - oneAPI Common Environment Scripts
+    intel-oneapi-compiler-cpp-eclipse-cfg - Intel® oneAPI DPC++/C++ Compiler 2021.1.2 for Linux* eclipse integration configuration file (C++)
+    intel-oneapi-compiler-dpcpp-cpp - Intel® oneAPI DPC++/C++ Compiler
+    intel-oneapi-compiler-dpcpp-cpp-2021.1.1 - Intel® oneAPI DPC++/C++ Compiler
+    intel-oneapi-compiler-dpcpp-cpp-2021.1.2 - Intel® oneAPI DPC++/C++ Compiler
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 2021.1.2 for Linux* for Intel(R) 64
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-2021.1.1 - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 2021.1.1 for Linux* for Intel(R) 64
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-2021.1.2 - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 2021.1.2 for Linux* for Intel(R) 64
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-common-2021.1.1 - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 2021.1.1 for Linux*
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-common-2021.1.2 - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 2021.1.2 for Linux*
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-runtime-2021.1.1 - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 2021.1.1 for Linux* runtime package for Intel(R) 64
+    intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-runtime-2021.1.2 - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic 2021.1.2 for Linux* runtime package for Intel(R) 64
+    intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2021.1.1 - Intel(R) DPC++/C++ Pro / Fortran Compiler Runtime Shared Files
+    intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2021.1.2 - Intel(R) DPC++/C++ Pro / Fortran Compiler Runtime Shared Files
+    intel-oneapi-compiler-dpcpp-cpp-common-2021.1.1 - Intel® oneAPI DPC++/C++ Compiler 2021.1.1 for Linux*
+    intel-oneapi-compiler-dpcpp-cpp-common-2021.1.2 - Intel® oneAPI DPC++/C++ Compiler 2021.1.2 for Linux*
+    intel-oneapi-compiler-dpcpp-cpp-runtime - Intel® oneAPI DPC++/C++ Compiler 2021.1.2 for Linux* runtime package for Intel(R) 64
+    intel-oneapi-compiler-dpcpp-cpp-runtime-2021.1.1 - Intel® oneAPI DPC++/C++ Compiler 2021.1.1 for Linux* runtime package for Intel(R) 64
+    intel-oneapi-compiler-dpcpp-cpp-runtime-2021.1.2 - Intel® oneAPI DPC++/C++ Compiler 2021.1.2 for Linux* runtime package for Intel(R) 64
+    intel-oneapi-compiler-dpcpp-eclipse-cfg - Intel® oneAPI DPC++/C++ Compiler 2021.1.2 for Linux* eclipse integration configuration file (DPC++)
+    intel-oneapi-compiler-fortran - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic 2021.1.2 for Linux* for Intel(R) 64
+    intel-oneapi-compiler-fortran-2021.1.1 - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic 2021.1.1 for Linux* for Intel(R) 64
+    intel-oneapi-compiler-fortran-2021.1.2 - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic 2021.1.2 for Linux* for Intel(R) 64
+    intel-oneapi-compiler-fortran-common-2021.1.1 - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic 2021.1.1 for Linux*
+    intel-oneapi-compiler-fortran-common-2021.1.2 - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic 2021.1.2 for Linux*
+    intel-oneapi-compiler-fortran-runtime - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic 2021.1.2 for Linux* runtime package for Intel(R) 64
+    intel-oneapi-compiler-fortran-runtime-2021.1.1 - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic 2021.1.1 for Linux* runtime package for Intel(R) 64
+    intel-oneapi-compiler-fortran-runtime-2021.1.2 - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic 2021.1.2 for Linux* runtime package for Intel(R) 64
+    intel-oneapi-compiler-shared-2021.1.1 - Intel(R) Compiler Shared Files
+    intel-oneapi-compiler-shared-2021.1.2 - Intel(R) Compiler Shared Files
+    intel-oneapi-compiler-shared-common-2021.1.1 - Intel(R) Compiler Shared Files
+    intel-oneapi-compiler-shared-common-2021.1.2 - Intel(R) Compiler Shared Files
+    intel-oneapi-compiler-shared-common-runtime-2021.1.1 - Intel(R) Compiler Shared Files
+    intel-oneapi-compiler-shared-common-runtime-2021.1.2 - Intel(R) Compiler Shared Files
+    intel-oneapi-compiler-shared-runtime-2021.1.1 - Intel(R) Compiler Shared Files runtime contents
+    intel-oneapi-compiler-shared-runtime-2021.1.2 - Intel(R) Compiler Shared Files runtime contents
+    intel-oneapi-condaindex - oneAPI Common Install components
+    intel-oneapi-daal - Intel® oneAPI Data Analytics Library
+    intel-oneapi-daal-devel - Intel® oneAPI Data Analytics Library Development Package
+    intel-oneapi-dal - Intel® oneAPI Data Analytics Library
+    intel-oneapi-dal-2021.1.1 - Intel® oneAPI Data Analytics Library
+    intel-oneapi-dal-common-2021.1.1 - Intel® oneAPI Data Analytics Library common
+    intel-oneapi-dal-common-devel-2021.1.1 - Intel® oneAPI Data Analytics Library common
+    intel-oneapi-dal-devel - Intel® oneAPI Data Analytics Library Development Package
+    intel-oneapi-dal-devel-2021.1.1 - Intel® oneAPI Data Analytics Library Development Package
+    intel-oneapi-dev-utilities - Dev Utilities
+    intel-oneapi-dev-utilities-2021.1.1 - Dev Utilities
+    intel-oneapi-dev-utilities-eclipse-cfg - intel-oneapi-dev-utilities-eclipse-cfg
+    intel-oneapi-dnnl - Intel® oneAPI Deep Neural Network Library
+    intel-oneapi-dnnl-devel - Intel® oneAPI Deep Neural Network Library Development Package
+    intel-oneapi-dpcpp-cpp-2021.1.1 - Intel® oneAPI DPC++/C++ Compiler 2021.1.1 for Linux* for Intel(R) 64
+    intel-oneapi-dpcpp-cpp-2021.1.2 - Intel® oneAPI DPC++/C++ Compiler 2021.1.2 for Linux* for Intel(R) 64
+    intel-oneapi-dpcpp-ct - Intel® DPC++ Compatibility Tool
+    intel-oneapi-dpcpp-ct-2021.1.1 - Intel® DPC++ Compatibility Tool
+    intel-oneapi-dpcpp-ct-eclipse-cfg - Intel® DPC++ Compatibility Tool 2021.1.1 for Linux* eclipse integration configuration file
+    intel-oneapi-dpcpp-debugger - Intel® Distribution for GDB*
+    intel-oneapi-dpcpp-debugger-10.0.0 - Intel® Distribution for GDB*
+    intel-oneapi-dpcpp-debugger-eclipse-cfg - Intel® Distribution for GDB* 10.0.0 for Linux* eclipse integration configuration file
+    intel-oneapi-eclipse-ide - Eclipse* IDE
+    intel-oneapi-eclipse-ide-2021.1.1 - Eclipse* IDE
+    intel-oneapi-embree - Intel® Embree
+    intel-oneapi-embree-3.12.0 - Intel® Embree
+    intel-oneapi-ilit - Intel(R) Low Precision Optimization Tool
+    intel-oneapi-inspector - Intel® Inspector
+    intel-oneapi-intelfpgadpcpp-a10gx-s10sx - Intel® FPGA Add-on supporting the Intel® FPGA Programmable Acceleration Cards (PAC): Intel® FPGA PAC D5005, Intel® PAC® with Arria® 10 GX FPGA
+    intel-oneapi-intelfpgadpcpp-a10gx-s10sx-2021.1.1 - Intel® FPGA Add-on supporting the Intel® FPGA Programmable Acceleration Cards (PAC): Intel® FPGA PAC D5005, Intel® PAC® with Arria® 10 GX FPGA
+    intel-oneapi-intelfpgadpcpp-a10gx-s10sx-quartus-part1-2021.1.1 - Intel® FPGA Add-on supporting the Intel® FPGA Programmable Acceleration Cards (PAC): Intel® FPGA PAC D5005, Intel® PAC® with Arria® 10 GX FPGA: Quartus Prime Pro, Part 1
+    intel-oneapi-intelfpgadpcpp-a10gx-s10sx-quartus-part2-2021.1.1 - Intel® FPGA Add-on supporting the Intel® FPGA Programmable Acceleration Cards (PAC): Intel® FPGA PAC D5005, Intel® PAC® with Arria® 10 GX FPGA: Quartus Prime Pro, Part 2
+    intel-oneapi-intelfpgadpcpp-a10gx-s10sx-quartus-part3-2021.1.1 - Intel® FPGA Add-on supporting the Intel® FPGA Programmable Acceleration Cards (PAC): Intel® FPGA PAC D5005, Intel® PAC® with Arria® 10 GX FPGA: Quartus Prime Pro, Part 3
+    intel-oneapi-intelfpgadpcpp-a10gx-s10sx-quartus-part4-2021.1.1 - Intel® FPGA Add-on supporting the Intel® FPGA Programmable Acceleration Cards (PAC): Intel® FPGA PAC D5005, Intel® PAC® with Arria® 10 GX FPGA: Quartus Prime Pro, Part 4
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 19.4
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 19.4
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4-part1-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 19.4, Part 1
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4-part2-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 19.4, Part 2
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4-part3-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 19.4, Part 3
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4-part4-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 19.4, Part 4
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4-part5-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 19.4, Part 5
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.2
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.2
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2-part1-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.2, Part 1
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2-part2-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.2, Part 2
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2-part3-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.2, Part 3
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2-part4-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.2, Part 4
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2-part5-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.2, Part 5
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.3
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.3
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3-part1-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.3, Part 1
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3-part2-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.3, Part 2
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3-part3-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.3, Part 3
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3-part4-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.3, Part 4
+    intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3-part5-2021.1.1 - Intel® FPGA Add-on supporting custom platforms with Quartus Prime Pro 20.3, Part 5
+    intel-oneapi-iot-eclipse-plugins - IoT Plugins for Eclipse
+    intel-oneapi-iot-eclipse-plugins-2021.1.1 - IoT Plugins for Eclipse
+    intel-oneapi-iot-eclipse-plugins-cfg - IoT Plugins for Eclipse
+    intel-oneapi-ipp - Intel® Integrated Performance Primitives
+    intel-oneapi-ipp-2021.1.1 - Intel® Integrated Performance Primitives
+    intel-oneapi-ipp-common-2021.1.1 - Intel® Integrated Performance Primitives common
+    intel-oneapi-ipp-common-devel-2021.1.1 - Intel® Integrated Performance Primitives common
+    intel-oneapi-ipp-devel - Intel® Integrated Performance Primitives Development Package
+    intel-oneapi-ipp-devel-2021.1.1 - Intel® Integrated Performance Primitives Development Package
+    intel-oneapi-ipp-devel-32bit - Intel® Integrated Performance Primitives Development Package for IA-32
+    intel-oneapi-ipp-devel-32bit-2021.1.1 - Intel® Integrated Performance Primitives Development Package for IA-32
+    intel-oneapi-ippcp - Intel® Integrated Performance Primitives Cryptography
+    intel-oneapi-ippcp-2021.1.1 - Intel® Integrated Performance Primitives Cryptography
+    intel-oneapi-ippcp-common-2021.1.1 - Intel® Integrated Performance Primitives Cryptography common
+    intel-oneapi-ippcp-common-devel-2021.1.1 - Intel® Integrated Performance Primitives Cryptography common
+    intel-oneapi-ippcp-devel - Intel® Integrated Performance Primitives Cryptography Development Package
+    intel-oneapi-ippcp-devel-2021.1.1 - Intel® Integrated Performance Primitives Cryptography Development Package
+    intel-oneapi-ippcp-devel-32bit - Intel® Integrated Performance Primitives Cryptography Development Package for IA-32
+    intel-oneapi-ippcp-devel-32bit-2021.1.1 - Intel® Integrated Performance Primitives Cryptography Development Package for IA-32
+    intel-oneapi-itac - Intel® Trace Analyzer and Collector
+    intel-oneapi-itac-2021.1.1 - Intel® Trace Analyzer and Collector
+    intel-oneapi-libdpstd-devel - Intel® oneAPI DPC++ Library 2021.1.2 for Linux*
+    intel-oneapi-libdpstd-devel-2021.1.1 - Intel® oneAPI DPC++ Library 2021.1.1 for Linux*
+    intel-oneapi-libdpstd-devel-2021.1.2 - Intel® oneAPI DPC++ Library 2021.1.2 for Linux*
+    intel-oneapi-mkl - Intel® oneAPI Math Kernel Library runtime package for Intel(R) 64
+    intel-oneapi-mkl-2021.1.1 - Intel® oneAPI Math Kernel Library runtime package for Intel(R) 64
+    intel-oneapi-mkl-common-2021.1.1 - Intel® oneAPI Math Kernel Library 2021.1.1 for Linux* common
+    intel-oneapi-mkl-common-devel-2021.1.1 - Intel® oneAPI Math Kernel Library common
+    intel-oneapi-mkl-devel - Intel® oneAPI Math Kernel Library 2021.1.1 for Linux* development package for Intel(R) 64
+    intel-oneapi-mkl-devel-2021.1.1 - Intel® oneAPI Math Kernel Library 2021.1.1 for Linux* development package for Intel(R) 64
+    intel-oneapi-mkl-devel-32bit - Intel® oneAPI Math Kernel Library 2021.1.1 for Linux* development package for IA-32
+    intel-oneapi-mkl-devel-32bit-2021.1.1 - Intel® oneAPI Math Kernel Library 2021.1.1 for Linux* development package for IA-32
+    intel-oneapi-model-zoo - Model Zoo
+    intel-oneapi-mpi - Intel® MPI Library Runtime Environment
+    intel-oneapi-mpi-2021.1.1 - Intel® MPI Library Runtime Environment
+    intel-oneapi-mpi-devel - Intel® MPI Library
+    intel-oneapi-mpi-devel-2021.1.1 - Intel® MPI Library
+    intel-oneapi-oidn - Intel® Open Image Denoise
+    intel-oneapi-oidn-1.2.4 - Intel® Open Image Denoise
+    intel-oneapi-onevpl - Intel® oneAPI Video Processing Library
+    intel-oneapi-onevpl-2021.1.1 - Intel® oneAPI Video Processing Library
+    intel-oneapi-onevpl-devel - Intel® oneAPI Video Processing Library
+    intel-oneapi-onevpl-devel-2021.1.1 - Intel® oneAPI Video Processing Library
+    intel-oneapi-openmp - Intel® OpenMP* Runtime Library 2021.1.2 for Linux* for Intel(R) 64
+    intel-oneapi-openmp-2021.1.1 - Intel® OpenMP* Runtime Library 2021.1.1 for Linux* for Intel(R) 64
+    intel-oneapi-openmp-2021.1.2 - Intel® OpenMP* Runtime Library 2021.1.2 for Linux* for Intel(R) 64
+    intel-oneapi-openmp-common-2021.1.1 - Intel® OpenMP* Runtime Library 2021.1.1 for Linux*
+    intel-oneapi-openmp-common-2021.1.2 - Intel® OpenMP* Runtime Library 2021.1.2 for Linux*
+    intel-oneapi-openvkl - Intel® Open Volume Kernel Library
+    intel-oneapi-openvkl-0.11.0 - Intel® Open Volume Kernel Library
+    intel-oneapi-ospray - Intel® OSPRay
+    intel-oneapi-ospray-2.4.0 - Intel® OSPRay
+    intel-oneapi-ospray-studio - Intel® OSPRay Studio
+    intel-oneapi-ospray-studio-0.5.0 - Intel® OSPRay Studio
+    intel-oneapi-python - Intel® Distribution for Python*
+    intel-oneapi-pytorch - PyTorch*
+    intel-oneapi-rkcommon - Rendering toolkit common
+    intel-oneapi-rkcommon-1.5.0 - Rendering toolkit common
+    intel-oneapi-rkutil - Rendering Toolkit Utilities
+    intel-oneapi-rkutil-1.0.0 - Rendering Toolkit Utilities
+    intel-oneapi-runtime-ccl - Intel® oneAPI Collective Communications Library runtime
+    intel-oneapi-runtime-compilers - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic runtime common files
+    intel-oneapi-runtime-compilers-common - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic runtime common files
+    intel-oneapi-runtime-dal - Intel® oneAPI Data Analytics Library runtime
+    intel-oneapi-runtime-dnnl - Intel® oneAPI Deep Neural Network Library runtime
+    intel-oneapi-runtime-dpcpp-cpp - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic runtime
+    intel-oneapi-runtime-dpcpp-cpp-common - Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic runtime
+    intel-oneapi-runtime-dpcpp-library - Intel® oneAPI DPC++ Library runtime
+    intel-oneapi-runtime-fortran - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic runtime
+    intel-oneapi-runtime-fortran-common - Intel® Fortran Compiler (Beta) & Intel® Fortran Compiler Classic runtime
+    intel-oneapi-runtime-ipp - Intel® Integrated Performance Primitives runtime
+    intel-oneapi-runtime-ipp-common - Intel® Integrated Performance Primitives runtime common
+    intel-oneapi-runtime-ipp-crypto - Intel® Integrated Performance Primitives Cryptography runtime
+    intel-oneapi-runtime-ipp-crypto-common - Intel® Integrated Performance Primitives Cryptography runtime common
+    intel-oneapi-runtime-libs - Intel® oneAPI Runtime Libraries
+    intel-oneapi-runtime-mkl - Intel® oneAPI Math Kernel Library runtime
+    intel-oneapi-runtime-mkl-common - Intel® oneAPI Math Kernel Library runtime common
+    intel-oneapi-runtime-mpi - Intel® MPI Library runtime
+    intel-oneapi-runtime-opencl - Intel® CPU Runtime for OpenCL(TM) Applications runtime
+    intel-oneapi-runtime-openmp - Intel® OpenMP* Runtime Library runtime
+    intel-oneapi-runtime-openmp-common - l_openmp.runtime.description>
+    intel-oneapi-runtime-tbb - Intel® oneAPI Threading Building Blocks runtime
+    intel-oneapi-runtime-tbb-common - Intel® oneAPI Threading Building Blocks runtime common
+    intel-oneapi-runtime-vpl - Intel® oneAPI Video Processing Library runtime
+    intel-oneapi-tbb - Intel® oneAPI Threading Building Blocks
+    intel-oneapi-tbb-2021.1.1 - Intel® oneAPI Threading Building Blocks
+    intel-oneapi-tbb-common-2021.1.1 - Intel® oneAPI Threading Building Blocks common
+    intel-oneapi-tbb-common-devel-2021.1.1 - Intel® oneAPI Threading Building Blocks common
+    intel-oneapi-tbb-devel - Intel® oneAPI Threading Building Blocks Development Package
+    intel-oneapi-tbb-devel-2021.1.1 - Intel® oneAPI Threading Building Blocks Development Package
+    intel-oneapi-tbb-devel-32bit - Intel® oneAPI Threading Building Blocks Development Package for IA-32
+    intel-oneapi-tbb-devel-32bit-2021.1.1 - Intel® oneAPI Threading Building Blocks Development Package for IA-32
+    intel-oneapi-tensorflow - Intel® Optimization for TensorFlow*
+    intel-oneapi-vtune - Intel® VTune(TM) Profiler
+    intel-renderkit - Intel® oneAPI Rendering Toolkit
+    intel-renderkit-2021.1.0 - Intel® oneAPI Rendering Toolkit
+    intel-renderkit-getting-started - Intel® oneAPI Rendering Toolkit
+    intel-renderkit-runtime - Intel® oneAPI Rendering Toolkit
+    intel-renderkit-runtime-2021.1.0 - Intel® oneAPI Rendering Toolkit
+
