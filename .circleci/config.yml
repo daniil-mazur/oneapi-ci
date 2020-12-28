@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2020 Intel Corporation
+#
+# SPDX-License-Identifier: MIT
+
+version: 2.1
+workflows:
+  empty:
+    jobs: []
+    
