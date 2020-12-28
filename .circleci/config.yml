@@ -3,7 +3,11 @@
 # SPDX-License-Identifier: MIT
 
 version: 2.1
+jobs:
+  - j1:
+      branches:
+        ignore:
+          - gh-pages
 workflows:
-  empty:
-    jobs: []
-    
+  w1:
+    jobs: [j1]
