@@ -12,7 +12,7 @@ jobs:
 workflows:
   w1:
     jobs:
-      -j1:
+      - j1:
          filters:
            branches:
              ignore:
