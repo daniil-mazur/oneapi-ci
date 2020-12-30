@@ -3,9 +3,15 @@
 # SPDX-License-Identifier: MIT
 
 version: 2.1
+jobs:
+  j1:
+    docker:
+      - image: ubuntu:latest
+    steps:
+      - checkout
 workflows:
   w1:
-    jobs: []
+    jobs: [j1]
     branches:
       ignore:
         - gh-pages
