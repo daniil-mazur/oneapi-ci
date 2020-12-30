@@ -12,6 +12,7 @@ jobs:
 workflows:
   w1:
     jobs: [j1]
-    branches:
-      ignore:
-        - gh-pages
+    filters:
+      branches:
+        ignore:
+          - gh-pages
