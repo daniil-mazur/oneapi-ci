@@ -11,8 +11,9 @@ jobs:
       - checkout
 workflows:
   w1:
-    jobs: [j1]
-    filters:
-      branches:
-        ignore:
-          - gh-pages
+    jobs:
+      -j1:
+         filters:
+           branches:
+             ignore:
+               - gh-pages
