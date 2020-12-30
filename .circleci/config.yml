@@ -4,10 +4,10 @@
 
 version: 2.1
 jobs:
-  - j1:
-      branches:
-        ignore:
-          - gh-pages
+  j1:
+    branches:
+      ignore:
+        - gh-pages
 workflows:
   w1:
     jobs: [j1]
