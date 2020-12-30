@@ -5,6 +5,7 @@
 version: 2.1
 workflows:
   w1:
+    jobs: []
     branches:
       ignore:
         - gh-pages
