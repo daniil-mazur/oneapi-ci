@@ -5,6 +5,8 @@
 name: build_macos_online_scheduled
 
 on:
+  push: {}
+  workflow_dispatch: {}
   schedule:
     - cron: '0 0 * * *'
 
