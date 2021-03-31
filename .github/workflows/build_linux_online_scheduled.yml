@@ -40,7 +40,7 @@ jobs:
     - name: install_aikit
       run: scripts/install_linux.sh $LINUX_AIKIT_URL intel.oneapi.lin.tensorflow
     - name: install_dlfdkit
-      run: scripts/install_linux.sh $LINUX_DLFDKIT_URL intel.oneapi.lin.dnnl
+      run: scripts/install_linux.sh $LINUX_DLFDKIT_URL intel.oneapi.lin.ccl.devel
     - name: install_renderkit
       run: scripts/install_linux.sh $LINUX_RENDERKIT_URL intel.oneapi.lin.embree
     - name: build_c++
