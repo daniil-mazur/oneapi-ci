@@ -24,7 +24,7 @@ env:
   MACOS_BASEKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/17714/m_BaseKit_p_2021.2.0.2855_offline.dmg
   MACOS_HPCKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/17643/m_HPCKit_p_2021.2.0.2903_offline.dmg
   MACOS_RENDERKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/17584/m_RenderKit_p_2021.2.0.700_offline.dmg
-  LINUX_COMPONENTS: intel-basekit,intel-hpckit,intel-iotkit,intel-aikit,intel-renderkit
+  LINUX_COMPONENTS: intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic,intel-oneapi-compiler-fortran
 
 jobs:
   build_windows_all_offline:
@@ -37,13 +37,13 @@ jobs:
     - name: tracert
       run: tracert -h 1 registrationcenter-download.intel.com
     - name: install_basekit
-      run: scripts/install_windows.bat $WINDOWS_BASEKIT_URL intel.oneapi.lin.dpcpp-cpp-compiler
+      run: scripts/install_windows.bat $WINDOWS_BASEKIT_URL intel.oneapi.win.dpcpp-compiler
     - name: install_hpckit
-      run: scripts/install_windows.bat $WINDOWS_HPCKIT_URL intel.oneapi.lin.ifort-compiler
+      run: scripts/install_windows.bat $WINDOWS_HPCKIT_URL intel.oneapi.win.ifort-compiler
     - name: install_iotkit
-      run: scripts/install_windows.bat $WINDOWS_IOTKIT_URL intel.oneapi.lin.dpcpp-cpp-compiler-pro
+      run: scripts/install_windows.bat $WINDOWS_IOTKIT_URL intel.oneapi.win.cpp-compiler
     - name: install_renderkit
-      run: scripts/install_windows.bat $WINDOWS_RENDERKIT_URL intel.oneapi.lin.embree
+      run: scripts/install_windows.bat $WINDOWS_RENDERKIT_URL intel.oneapi.win.embree
     - name: build_c++
       run: scripts/build_windows.bat c++
     - name: build_fortran
@@ -77,15 +77,15 @@ jobs:
     - name: install_basekit
       run: scripts/install_linux.sh $LINUX_BASEKIT_URL intel.oneapi.lin.dpcpp-cpp-compiler
     - name: install_hpckit
-      run: scripts/install_linux.sh $LINUX_HPCKIT_URL
+      run: scripts/install_linux.sh $LINUX_HPCKIT_URL intel.oneapi.lin.ifort-compiler
     - name: install_iotkit
-      run: scripts/install_linux.sh $LINUX_IOTKIT_URL
+      run: scripts/install_linux.sh $LINUX_IOTKIT_URL intel.oneapi.lin.dpcpp-cpp-compiler-pro
     - name: install_aikit
-      run: scripts/install_linux.sh $LINUX_AIKIT_URL
+      run: scripts/install_linux.sh $LINUX_AIKIT_URL intel.oneapi.lin.tensorflow
     - name: install_dlfdkit
-      run: scripts/install_linux.sh $LINUX_DLFDKIT_URL
+      run: scripts/install_linux.sh $LINUX_DLFDKIT_URL intel.oneapi.lin.ccl.devel
     - name: install_renderkit
-      run: scripts/install_linux.sh $LINUX_RENDERKIT_URL
+      run: scripts/install_linux.sh $LINUX_RENDERKIT_URL intel.oneapi.lin.embree
     - name: build_c++
       run: scripts/build_linux.sh c++
     - name: build_fortran
