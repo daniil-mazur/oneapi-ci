@@ -155,6 +155,22 @@ jobs:
     - name: build
       run: scripts/build_linux.sh dpc++ $SAMPLES_TAG
 
+  build_linux_apt_runtimes:
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup apt repo
+        run: scripts/setup_apt_repo_linux.sh
+      - name: sudo apt update
+        run: sudo apt update
+      - name: print packages info
+        run: sudo apt-cache show intel-oneapi-*
+      - name: install runtimes
+        run: sudo apt install intel-oneapi-runtime-libs
+
   build_linux_apt_toolkits:
     runs-on: ubuntu-20.04
     defaults:
@@ -168,41 +184,41 @@ jobs:
       run: sudo apt update
     - name: print packages info
       run: sudo apt-cache show intel-oneapi-*
-    - name: dry-run install basekit
-      run: sudo apt install --dry-run intel-basekit
+    - name: install basekit
+      run: sudo apt install intel-basekit
       if: ${{ always() }}
-    - name: dry-run install hpckit
-      run: sudo apt install --dry-run intel-hpckit
+    - name: install hpckit
+      run: sudo apt install intel-hpckit
       if: ${{ always() }}
-    - name: dry-run install iotkit
-      run: sudo apt install --dry-run intel-iotkit
+    - name: install iotkit
+      run: sudo apt install intel-iotkit
       if: ${{ always() }}
-    - name: dry-run install aikit
-      run: sudo apt install --dry-run intel-aikit
+    - name: install aikit
+      run: sudo apt install intel-aikit
       if: ${{ always() }}
-    - name: dry-run install dlfdkit
-      run: sudo apt install --dry-run intel-dlfdkit
+    - name: install dlfdkit
+      run: sudo apt install intel-dlfdkit
       if: ${{ always() }}
-    - name: dry-run install renderkit
-      run: sudo apt install --dry-run intel-renderkit
-      if: ${{ always() }}
+    - name: install renderkit
+      run: sudo apt install intel-renderkit
+      # if: ${{ always() }}
     # - name: dry-run install FPGA1
       # run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-a10gx-s10sx
       # if: ${{ always() }}
     # - name: dry-run install FPGA2
       # run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-a10gx-s10sx-quartus
       # if: ${{ always() }}
-    - name: dry-run install FPGA3
-      run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4
-      if: ${{ always() }}
-    - name: dry-run install FPGA4
-      run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2
-      if: ${{ always() }}
-    - name: dry-run install FPGA5
-      run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3
-      if: ${{ always() }}
-    - name: dry-run install FPGA6
-      run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.4
+    # - name: dry-run install FPGA3
+      # run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-custom-platforms-quartus19.4
+      # if: ${{ always() }}
+    # - name: dry-run install FPGA4
+      # run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.2
+      # if: ${{ always() }}
+    # - name: dry-run install FPGA5
+      # run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.3
+      # if: ${{ always() }}
+    # - name: dry-run install FPGA6
+      # run: sudo apt install --dry-run intel-oneapi-intelfpgadpcpp-custom-platforms-quartus20.4
       if: ${{ always() }}
     - name: install
       run: scripts/install_linux_apt.sh $LINUX_COMPONENTS
@@ -235,6 +251,56 @@ jobs:
       run: scripts/build_linux.sh fortran $SAMPLES_TAG
     - name: build
       run: scripts/build_linux.sh dpc++ $SAMPLES_TAG
+
+  build_linux_dnf_runtimes:
+    runs-on: ubuntu-20.04
+    container: fedora
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup yum/dnf repo
+        run: scripts/setup_yum_dnf_repo_linux.sh
+      - name: install prerequisites
+        run: sudo dnf -y install git make gcc g++
+      - name: install
+        run: scripts/install_linux_dnf.sh $LINUX_COMPONENTS
+      - name: install runtime_libs
+        run: sudo dnf -y install intel-oneapi-runtime-libs
+
+  build_linux_dnf_toolkit:
+    runs-on: ubuntu-20.04
+    container: fedora
+    defaults:
+      run:
+        shell: bash
+    steps:
+    - uses: actions/checkout@v2
+    - name: setup yum/dnf repo
+      run: scripts/setup_yum_dnf_repo_linux.sh
+    - name: install prerequisites
+      run: sudo dnf -y install git make gcc g++
+    - name: install
+      run: scripts/install_linux_dnf.sh $LINUX_COMPONENTS
+    - name: install basekit
+      run: sudo dnf -y install intel-basekit
+    - name: install hpckit
+      run: sudo dnf -y install intel-hpckit
+    - name: install iotkit
+      run: sudo dnf -y install intel-iotkit
+    - name: install dlfdkit
+      run: sudo dnf -y install intel-dlfdkit
+    - name: install renderkit
+      run: sudo dnf -y install intel-renderkit
+    - name: install aikit
+      run: sudo dnf -y install intel-aikit
+    - name: build
+      run: scripts/build_linux.sh c++
+    - name: build
+      run: scripts/build_linux.sh fortran
+    - name: build
+      run: scripts/build_linux.sh dpc++
 
   build_macos_all_offline:
     runs-on: macos-latest
