@@ -269,7 +269,7 @@ jobs:
       - name: install runtime_libs
         run: sudo dnf -y install intel-oneapi-runtime-libs
 
-  build_linux_dnf_toolkit:
+  build_linux_dnf_toolkits:
     runs-on: ubuntu-20.04
     container: fedora
     defaults:
