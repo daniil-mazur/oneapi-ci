@@ -15,7 +15,7 @@ env:
   WINDOWS_HPCKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/17940/w_HPCKit_p_2021.3.0.3227.exe
   WINDOWS_IOTKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/17934/w_IoTKit_p_2021.3.0.1365.exe
   WINDOWS_RENDERKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/17976/w_RenderKit_p_2021.3.0.802.exe
-  SAMPLES_TAG: 2021.3.0
+  SAMPLES_TAG: 2021.4.0
 
 jobs:
   build_windows_all:

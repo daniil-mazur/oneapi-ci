@@ -25,7 +25,7 @@ env:
   MACOS_HPCKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/17890/m_HPCKit_p_2021.3.0.3226_offline.dmg
   MACOS_RENDERKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/17903/m_RenderKit_p_2021.3.0.782_offline.dmg
   LINUX_COMPONENTS: intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic,intel-oneapi-compiler-fortran
-  SAMPLES_TAG: 2021.3.0
+  SAMPLES_TAG: 2021.4.0
 
 jobs:
   build_windows_all_offline:
