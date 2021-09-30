@@ -296,11 +296,11 @@ jobs:
     - name: install aikit
       run: sudo dnf -y install intel-aikit
     - name: build
-      run: scripts/build_linux.sh c++
+      run: scripts/build_linux.sh c++ $SAMPLES_TAG
     - name: build
-      run: scripts/build_linux.sh fortran
+      run: scripts/build_linux.sh fortran $SAMPLES_TAG
     - name: build
-      run: scripts/build_linux.sh dpc++
+      run: scripts/build_linux.sh dpc++ $SAMPLES_TAG
 
   build_macos_all_offline:
     runs-on: macos-latest
