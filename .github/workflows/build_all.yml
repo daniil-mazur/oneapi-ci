@@ -9,6 +9,8 @@ on: push
 env:
   WINDOWS_BASEKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/18497/w_BaseKit_p_2022.1.2.154_offline.exe
   WINDOWS_HPCKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/18529/w_HPCKit_p_2022.1.2.116_offline.exe
+  WINDOWS_DPCPP_CPP_STANDALONE_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/18533/w_dpcpp-cpp-compiler_p_2022.0.2.97_offline.exe
+  WINDOWS_FORTRAN_STANDALONE_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/18534/w_fortran-compiler_p_2022.0.2.98_offline.exe
   LINUX_BASEKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/18487/l_BaseKit_p_2022.1.2.146_offline.sh
   LINUX_HPCKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/18479/l_HPCKit_p_2022.1.2.117_offline.sh
   MACOS_HPCKIT_URL: https://registrationcenter-download.intel.com/akdlm/irc_nas/18341/m_HPCKit_p_2022.1.0.86_offline.dmg
@@ -61,6 +63,43 @@ jobs:
           installer*
         retention-days: 7
 
+  build_windows_cpp_standalone:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v2
+      - name: cache install
+        id: cache-install
+        uses: actions/cache@v2
+        with:
+          path: C:\Program Files (x86)\Intel\oneAPI\compiler
+          key: install-${{ env.$WINDOWS_DPCPP_CPP_STANDALONE_URL }}-${{ env.WINDOWS_CPP_COMPONENTS }}-compiler-${{ hashFiles('**/scripts/cache_exclude_windows.sh') }}
+      - name: install
+        if: steps.cache-install.outputs.cache-hit != 'true'
+        run: scripts/install_windows.bat $WINDOWS_DPCPP_CPP_STANDALONE_URL
+      - name: build
+        run: scripts/build_windows.bat c++ "" $SAMPLES_TAG
+      - name: build2
+        run: scripts/build_windows.bat dpc++ "" $SAMPLES_TAG
+      - name: exclude unused files from cache
+        if: steps.cache-install.outputs.cache-hit != 'true'
+        shell: bash
+        run: scripts/cache_exclude_windows.sh
+
+      # Delete the following if you don't want to save install logs
+      - name: Saving install logs
+        if: steps.cache-install.outputs.cache-hit != 'true'
+        uses: actions/upload-artifact@v2
+        with:
+          name: InstallLogs_${{ github.job }}
+          path: |
+            extract.log
+            bootstrapper*
+            installer*
+          retention-days: 7
+
   build_windows_fortran:
     runs-on: windows-latest
     defaults:
@@ -77,6 +116,41 @@ jobs:
     - name: install
       if: steps.cache-install.outputs.cache-hit != 'true'
       run: scripts/install_windows.bat $WINDOWS_HPCKIT_URL $WINDOWS_FORTRAN_COMPONENTS
+    - name: build
+      run: scripts/build_windows.bat fortran "" $SAMPLES_TAG
+    - name: exclude unused files from cache
+      if: steps.cache-install.outputs.cache-hit != 'true'
+      shell: bash
+      run: scripts/cache_exclude_windows.sh
+
+    # Delete the following if you don't want to save install logs
+    - name: Saving install logs
+      if: steps.cache-install.outputs.cache-hit != 'true'
+      uses: actions/upload-artifact@v2
+      with:
+        name: InstallLogs_${{ github.job }}
+        path: |
+          extract.log
+          bootstrapper*
+          installer*
+        retention-days: 7
+
+  build_windows_fortran_standalone:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+    - uses: actions/checkout@v2
+    - name: cache install
+      id: cache-install
+      uses: actions/cache@v2
+      with:
+        path: C:\Program Files (x86)\Intel\oneAPI\compiler
+        key: install-${{ env.WINDOWS_FORTRAN_STANDALONE_URL }}-${{ env.WINDOWS_FORTRAN_COMPONENTS }}-compiler-${{ hashFiles('**/scripts/cache_exclude_windows.sh') }}
+    - name: install
+      if: steps.cache-install.outputs.cache-hit != 'true'
+      run: scripts/install_windows.bat $WINDOWS_FORTRAN_STANDALONE_URL
     - name: build
       run: scripts/build_windows.bat fortran "" $SAMPLES_TAG
     - name: exclude unused files from cache
