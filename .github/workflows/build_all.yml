@@ -81,8 +81,8 @@ jobs:
         run: scripts/install_windows.bat $WINDOWS_DPCPP_CPP_STANDALONE_URL
       - name: build
         run: scripts/build_windows.bat c++ "" $SAMPLES_TAG
-      - name: build2
-        run: scripts/build_windows.bat dpc++ "" $SAMPLES_TAG
+      #- name: build2
+       # run: scripts/build_windows.bat dpc++ "" $SAMPLES_TAG
       - name: exclude unused files from cache
         if: steps.cache-install.outputs.cache-hit != 'true'
         shell: bash
